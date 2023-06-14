@@ -1,0 +1,26 @@
+#board {
+  border: 1px solid blueviolet;
+  display: flex;
+  height: 350px;
+  width: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.tile {
+  border: 1px solid tan;
+  width: 100px; /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto; /* Magic! */
+  flex: 0 1 auto;
+}
+
+.cross {
+  background-color: green;
+}
+
+.nought {
+  background-color: red;
+}
