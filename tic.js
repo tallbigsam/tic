@@ -28,6 +28,9 @@ const Board = () => {
     checkTiles([tiles[0], tiles[1], tiles[2]], "top");
     checkTiles([tiles[3], tiles[4], tiles[5]], "middle");
     checkTiles([tiles[6], tiles[7], tiles[8]], "bottom");
+    checkTiles([tiles[0], tiles[3], tiles[6]], "left");
+    checkTiles([tiles[1], tiles[4], tiles[7]], "middle");
+    checkTiles([tiles[2], tiles[5], tiles[8]], "right");
     checkTiles([tiles[0], tiles[4], tiles[8]], "diagonal");
     checkTiles([tiles[2], tiles[4], tiles[6]], "diagonal");
     // if (tiles[0] == tiles[1] && tiles[1] == tiles[2] && tiles[0] != "tile") {
